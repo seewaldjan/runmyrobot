@@ -37,9 +37,12 @@ The RasPi will need the following things install so it can talk to your motor an
 ```apt-get install python-serial python-dev libgnutls28-dev espeak python-smbus python-pip git```
 
 
-(3) Install socket.io client for python:
+(3) Install socket.io client and the configparser for python:
 
-```pip install socketIO-client```
+```
+pip install socketIO-client
+pip install configparser
+```
 
 
 (4) Install alsa-lib
